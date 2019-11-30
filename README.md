@@ -1,5 +1,5 @@
 # ProtectVSS
-POC to protect VSS copies by terminating `vssadmin delete shadows` command and killing the initiating parent process
+POC to protect VSS copies by terminating `vssadmin delete shadows` command and killing the initiating parent process (reference for the dicussion https://twitter.com/cyb3rops/status/1191345532352057344)
 
 ## Driver files
 * x86 driver (debug build) : ProtectVSS/Debug/ProtectVSS.sys
