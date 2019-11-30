@@ -9,7 +9,7 @@ POC to protect VSS copies by terminating `vssadmin delete shadows` command and k
 
 Installation
 
-`sc create booster type= kernel binPath= {Path to .sys file}\ProtectVSS.sys`
+`sc create ProtectVSS type= kernel binPath= {Path to .sys file}\ProtectVSS.sys`
 
 Starting driver
 
