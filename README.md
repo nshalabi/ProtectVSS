@@ -26,7 +26,7 @@ You might also need to enable test sigining (it is better to use a VM for testin
 `bcdedit /set testsigning on`
 
 ## WARNING
-This POC was tested with Windows 10 (1909), **USE A TESTING virtual machine to experiment**
+This POC was tested with Windows 10 (1909), **USE A TESTING VIRTUAL MACHINE to experiment with the driver**
 
 ## Preview
 
