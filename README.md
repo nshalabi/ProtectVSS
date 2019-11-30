@@ -21,6 +21,10 @@ Stopping driver
 
 To see the logging (KdPrint) messages in DbgView, apply the registry setting in "EnableKdPrintRegistrySetting.reg" file
 
+You might also need to enable test sigining (it is better to use a VM for testing):
+
+`bcdedit /set testsigning on`
+
 ## WARNING
 This POC was tested with Windows 10 (1909), **USE A TESTING virtual machine to experiment**
 
